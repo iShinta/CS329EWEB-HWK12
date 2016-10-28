@@ -3,7 +3,7 @@
   echo "Try ".$name3;
 
   $fh = fopen("signup.txt", "a");
-  fwrite($fh, $name3."<br />");
+  fwrite($fh, $name3."\n");
   fclose($fh);
 ?>
 <h1>Thank you for registering</h1>

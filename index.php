@@ -15,6 +15,7 @@
         echo "Ouah".$line;
         echo "<br/>".$linevalue;
       }
+      echo "hauo";
       fclose($fh);
 
       $listSignUp = array(

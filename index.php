@@ -26,7 +26,12 @@
       function getName($i){
         global $listSignUp;
 
-        return $listSignUp[1];
+        if($listSignUp[$i]){
+          return $listSignUp[1];
+        }else{
+          return "<input type=\"text\" name=\"name".$i."\" />";
+        }
+
       }
     ?>
     <form>
@@ -38,28 +43,28 @@
           <td>8:00 am </td><td><?php echo(getName(1)); ?></td>
         </tr>
         <tr>
-          <td>10:00 am </td><td><?php echo("Hello"); ?></td>
+          <td>10:00 am </td><td><?php echo(getName(2)); ?></td>
         </tr>
         <tr>
-          <td>11:00 am </td><td></td>
+          <td>11:00 am </td><td><?php echo(getName(3)); ?></td>
         </tr>
         <tr>
-          <td>12:00 pm </td><td></td>
+          <td>12:00 pm </td><td><?php echo(getName(4)); ?></td>
         </tr>
         <tr>
-          <td>1:00 pm </td><td></td>
+          <td>1:00 pm </td><td><?php echo(getName(5)); ?></td>
         </tr>
         <tr>
-          <td>2:00 pm </td><td></td>
+          <td>2:00 pm </td><td><?php echo(getName(6)); ?></td>
         </tr>
         <tr>
-          <td>3:00 pm </td><td></td>
+          <td>3:00 pm </td><td><?php echo(getName(7)); ?></td>
         </tr>
         <tr>
-          <td>4:00 pm </td><td></td>
+          <td>4:00 pm </td><td><?php echo(getName(8)); ?></td>
         </tr>
         <tr>
-          <td>5:00 pm </td><td></td>
+          <td>5:00 pm </td><td><?php echo(getName(9)); ?></td>
         </tr>
       </table>
       <input type="submit" name="submit" value="Register" />

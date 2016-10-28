@@ -24,7 +24,9 @@
       echo $listSignUp[1];
 
       function getName($i){
-        return $GLOBALS['listSignUp[1]'];
+        global $listSignUp;
+
+        return $listSignUp[1];
       }
     ?>
     <form>

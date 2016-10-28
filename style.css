@@ -4,5 +4,6 @@ html{
 }
 
 #content{
+  margin: auto;
   text-align: center;
 }

@@ -21,8 +21,6 @@
         9 => ""
       );
 
-      echo $listSignUp[1];
-
       function getName($i){
         global $listSignUp;
 

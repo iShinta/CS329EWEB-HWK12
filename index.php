@@ -35,7 +35,7 @@
       }
     ?>
     <form>
-      <table border="1">
+      <table border="1" id="registration">
         <tr>
           <th>Time</th><th>Name</th>
         </tr>

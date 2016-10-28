@@ -11,10 +11,10 @@
     <?php
       //Read the file and put the results in the array
       $fh = fopen("signup.txt", "r");
-      foreach ($fh as $line) {
-        echo "Ouah".$line."<br />";
+      while(!feof($fh)){
+        $line = fgets($fh);
+        echo $line;
       }
-      echo "hauo";
       fclose($fh);
 
       $listSignUp = array(

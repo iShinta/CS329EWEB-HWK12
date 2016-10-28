@@ -9,14 +9,6 @@
 
   <body>
     <?php
-      //Read the file and put the results in the array
-      $fh = fopen("signup.txt", "r");
-      while(!feof($fh)){
-        $line = fgets($fh);
-        echo $line;
-      }
-      fclose($fh);
-
       $listSignUp = array(
         1 => "Arnold",
         2 => "Olga",
@@ -28,6 +20,20 @@
         8 => "",
         9 => ""
       );
+
+      //Read the file and put the results in the array
+      $fh = fopen("signup.txt", "r");
+      while(!feof($fh)){
+        //Read line
+        $lineNb = fgets($fh);
+
+        //Read Name
+        $line = fgets($fh);
+        $listSignUp[$lineNb] = $line;
+        echo $line;
+      }
+      fclose($fh);
+
 
       function getName($i){
         global $listSignUp;

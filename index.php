@@ -10,9 +10,9 @@
   <body>
     <?php
       $listSignUp = array(
-        1 => "",
-        2 => "",
-        3 => "",
+        1 => "Test1",
+        2 => "Test2",
+        3 => "Test3",
         4 => "",
         5 => "",
         6 => "",
@@ -20,38 +20,45 @@
         8 => "",
         9 => ""
       );
+
+      function getName($i){
+        return $listSignUp[$i];
+      }
     ?>
-    <table style="border: solid 1px;">
-      <tr>
-        <th>Time</th><th>Name</th>
-      </tr>
-      <tr>
-        <td>8:00 am </td><td></td>
-      </tr>
-      <tr>
-        <td>10:00 am </td><td></td>
-      </tr>
-      <tr>
-        <td>11:00 am </td><td></td>
-      </tr>
-      <tr>
-        <td>12:00 pm </td><td></td>
-      </tr>
-      <tr>
-        <td>1:00 pm </td><td></td>
-      </tr>
-      <tr>
-        <td>2:00 pm </td><td></td>
-      </tr>
-      <tr>
-        <td>3:00 pm </td><td></td>
-      </tr>
-      <tr>
-        <td>4:00 pm </td><td></td>
-      </tr>
-      <tr>
-        <td>5:00 pm </td><td></td>
-      </tr>
-    </table>
+    <form>
+      <table style="border: solid 1px;">
+        <tr>
+          <th>Time</th><th>Name</th>
+        </tr>
+        <tr>
+          <td>8:00 am </td><td><?php getName(1); ?></td>
+        </tr>
+        <tr>
+          <td>10:00 am </td><td></td>
+        </tr>
+        <tr>
+          <td>11:00 am </td><td></td>
+        </tr>
+        <tr>
+          <td>12:00 pm </td><td></td>
+        </tr>
+        <tr>
+          <td>1:00 pm </td><td></td>
+        </tr>
+        <tr>
+          <td>2:00 pm </td><td></td>
+        </tr>
+        <tr>
+          <td>3:00 pm </td><td></td>
+        </tr>
+        <tr>
+          <td>4:00 pm </td><td></td>
+        </tr>
+        <tr>
+          <td>5:00 pm </td><td></td>
+        </tr>
+      </table>
+      <input type="submit" name="submit" value="Register" />
+    </form>
   </body>
 </html>

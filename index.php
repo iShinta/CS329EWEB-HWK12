@@ -34,7 +34,7 @@
     ?>
     <div id="content">
       <h1>Registration Form</h1>
-      <form action="registration.php">
+      <form method="post" action="registration.php">
         <table border="2" width="50%" align="center">
           <tr>
             <th>Time</th><th>Name</th>

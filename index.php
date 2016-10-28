@@ -11,9 +11,9 @@
     <?php
       //Read the file and put the results in the array
       $fh = fopen("signup.txt", "r");
-      while(!$fh->eof()){
-        echo $file->fgets();
-        //echo $line;
+      foreach ($fh as $line => $linevalue) {
+        echo $line;
+        echo "<br/>".$linevalue;
       }
       fclose($fh);
 

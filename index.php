@@ -22,7 +22,7 @@
       );
 
       function getName($i){
-        return $listSignUp[$i];
+        return "Yep";//$listSignUp[$i];
       }
     ?>
     <form>

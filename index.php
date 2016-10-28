@@ -26,6 +26,7 @@
       while(!feof($fh)){
         //Read line
         $lineNb = fgets($fh);
+        echo $lineNb;
 
         //Read Name
         $line = fgets($fh);

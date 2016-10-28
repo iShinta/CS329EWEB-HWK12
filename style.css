@@ -3,7 +3,7 @@ html{
   padding: 0px;
 }
 
-#content{
+.content{
   margin: auto;
   text-align: center;
 }

@@ -32,7 +32,7 @@
 
       }
     ?>
-    <div id="content">
+    <div class="content">
     <h1>Registration Form</h1>
     <form>
       <table border="2" width="50%" align="center">

@@ -31,7 +31,7 @@
           <th>Time</th><th>Name</th>
         </tr>
         <tr>
-          <td>8:00 am </td><td><?php getName(1); ?></td>
+          <td>8:00 am </td><td><?php echo(getName(1)); ?></td>
         </tr>
         <tr>
           <td>10:00 am </td><td></td>

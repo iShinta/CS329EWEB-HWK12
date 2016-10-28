@@ -32,43 +32,44 @@
 
       }
     ?>
-    <div class="content">
-    <h1>Registration Form</h1>
-    <form>
-      <table border="2" width="50%" align="center">
-        <tr>
-          <th>Time</th><th>Name</th>
-        </tr>
-        <tr>
-          <td>8:00 am </td><td><?php echo(getName(1)); ?></td>
-        </tr>
-        <tr>
-          <td>10:00 am </td><td><?php echo(getName(2)); ?></td>
-        </tr>
-        <tr>
-          <td>11:00 am </td><td><?php echo(getName(3)); ?></td>
-        </tr>
-        <tr>
-          <td>12:00 pm </td><td><?php echo(getName(4)); ?></td>
-        </tr>
-        <tr>
-          <td>1:00 pm </td><td><?php echo(getName(5)); ?></td>
-        </tr>
-        <tr>
-          <td>2:00 pm </td><td><?php echo(getName(6)); ?></td>
-        </tr>
-        <tr>
-          <td>3:00 pm </td><td><?php echo(getName(7)); ?></td>
-        </tr>
-        <tr>
-          <td>4:00 pm </td><td><?php echo(getName(8)); ?></td>
-        </tr>
-        <tr>
-          <td>5:00 pm </td><td><?php echo(getName(9)); ?></td>
-        </tr>
-      </table>
-      <input type="submit" name="submit" value="Register" />
-    </form>
+    <div id="content">
+      <h1>Registration Form</h1>
+      Hi
+      <form>
+        <table border="2" width="50%" align="center">
+          <tr>
+            <th>Time</th><th>Name</th>
+          </tr>
+          <tr>
+            <td>8:00 am </td><td><?php echo(getName(1)); ?></td>
+          </tr>
+          <tr>
+            <td>10:00 am </td><td><?php echo(getName(2)); ?></td>
+          </tr>
+          <tr>
+            <td>11:00 am </td><td><?php echo(getName(3)); ?></td>
+          </tr>
+          <tr>
+            <td>12:00 pm </td><td><?php echo(getName(4)); ?></td>
+          </tr>
+          <tr>
+            <td>1:00 pm </td><td><?php echo(getName(5)); ?></td>
+          </tr>
+          <tr>
+            <td>2:00 pm </td><td><?php echo(getName(6)); ?></td>
+          </tr>
+          <tr>
+            <td>3:00 pm </td><td><?php echo(getName(7)); ?></td>
+          </tr>
+          <tr>
+            <td>4:00 pm </td><td><?php echo(getName(8)); ?></td>
+          </tr>
+          <tr>
+            <td>5:00 pm </td><td><?php echo(getName(9)); ?></td>
+          </tr>
+        </table>
+        <input type="submit" name="submit" value="Register" />
+      </form>
     </div>
   </body>
 </html>

@@ -12,8 +12,8 @@
       //Read the file and put the results in the array
       $fh = fpopen("signup.txt", "r");
       while(!$fh->eof()){
-        $line = $file->fgets();
-        echo $line;
+        echo $file->fgets();
+        //echo $line;
       }
       fclose($fh);
 

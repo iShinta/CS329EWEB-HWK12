@@ -26,7 +26,7 @@
       }
     ?>
     <form>
-      <table style="border: solid 1px;">
+      <table border="1">
         <tr>
           <th>Time</th><th>Name</th>
         </tr>
@@ -34,7 +34,7 @@
           <td>8:00 am </td><td><?php echo(getName(1)); ?></td>
         </tr>
         <tr>
-          <td>10:00 am </td><td></td>
+          <td>10:00 am </td><td><?php echo("Hello"); ?></td>
         </tr>
         <tr>
           <td>11:00 am </td><td></td>

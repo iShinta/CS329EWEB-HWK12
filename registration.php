@@ -6,3 +6,4 @@
   fwrite($fh, "Hello");
   fclose($fh);
 ?>
+<h1>Thank you for registering</h1>

@@ -22,7 +22,7 @@
       );
 
       function getName($i){
-        return $i;//$listSignUp[$i];
+        return $listSignUp[$i];
       }
     ?>
     <form>

@@ -35,6 +35,8 @@
       }
       fclose($fh);
 
+      echo $listSignUp[2];
+
 
       function getName($i){
         global $listSignUp;

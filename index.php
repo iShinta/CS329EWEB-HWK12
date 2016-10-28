@@ -34,6 +34,8 @@
 
       }
     ?>
+    <div id="content">
+    <h1>Registration Form</h1>
     <form>
       <table border="2" width="50%" align="center">
         <tr>
@@ -69,5 +71,6 @@
       </table>
       <input type="submit" name="submit" value="Register" />
     </form>
+    </div>
   </body>
 </html>

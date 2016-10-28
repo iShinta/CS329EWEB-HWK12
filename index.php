@@ -12,7 +12,7 @@
       //Read the file and put the results in the array
       $fh = fopen("signup.txt", "r");
       foreach ($fh as $line => $linevalue) {
-        echo $line;
+        echo "Ouah".$line;
         echo "<br/>".$linevalue;
       }
       fclose($fh);

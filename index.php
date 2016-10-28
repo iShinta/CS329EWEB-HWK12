@@ -10,15 +10,15 @@
   <body>
     <?php
       $listSignUp = array(
-        1 => "Test1",
-        2 => "Test2",
-        3 => "Test3",
-        4 => "",
-        5 => "",
-        6 => "",
-        7 => "",
-        8 => "",
-        9 => ""
+        "Test1",
+        "Test2",
+        "Test3",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       );
 
       function getName($i){

@@ -10,16 +10,18 @@
   <body>
     <?php
       $listSignUp = array(
-        "Test1",
-        "Test2",
-        "Test3",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        1 => "Test1",
+        2 => "Test2",
+        3 => "Test3",
+        4 => "",
+        5 => "",
+        6 => "",
+        7 => "",
+        8 => "",
+        9 => ""
       );
+
+      echo $listSignUp[1];
 
       function getName($i){
         return $listSignUp[1];

@@ -10,7 +10,7 @@
   <body>
     <?php
       //Read the file and put the results in the array
-      $fh = fpopen("signup.txt", "r");
+      $fh = fopen("signup.txt", "r");
       while(!$fh->eof()){
         echo $file->fgets();
         //echo $line;

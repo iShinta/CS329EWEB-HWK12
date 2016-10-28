@@ -35,7 +35,7 @@
       }
       fclose($fh);
 
-      echo $listSignUp[2];
+      echo "Plop".$listSignUp[2];
 
 
       function getName($i){

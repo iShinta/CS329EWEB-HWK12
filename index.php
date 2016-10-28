@@ -10,9 +10,9 @@
   <body>
     <?php
       $listSignUp = array(
-        1 => "Test1",
-        2 => "Test2",
-        3 => "Test3",
+        1 => "Arnold",
+        2 => "Olga",
+        3 => "Arthur",
         4 => "",
         5 => "",
         6 => "",

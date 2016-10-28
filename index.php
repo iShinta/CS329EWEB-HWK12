@@ -12,10 +12,10 @@
       $listSignUp = array(
         1 => "Arnold",
         2 => "Olga",
-        3 => "Arthur",
+        3 => "",
         4 => "",
         5 => "",
-        6 => "",
+        6 => "Arthur",
         7 => "",
         8 => "",
         9 => ""
@@ -27,7 +27,7 @@
         global $listSignUp;
 
         if($listSignUp[$i]){
-          return $listSignUp[1];
+          return $listSignUp[$i];
         }else{
           return "<input type=\"text\" name=\"name".$i."\" />";
         }

@@ -8,7 +8,10 @@
   </head>
 
   <body>
-    <table>
+    <?php
+    $listSignUp = ;
+    ?>
+    <table style="border: solid 1px;">
       <tr>
         <th>Time</th><th>Name</th>
       </tr>

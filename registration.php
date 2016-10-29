@@ -42,35 +42,35 @@
     fwrite($fh, "1\n");
     fwrite($fh, $n1."\n");
   }
-  if($name2 != ""){
+  if($n2 != ""){
     fwrite($fh, "2\n");
     fwrite($fh, $n2."\n");
   }
-  if($name3 != ""){
+  if($n3 != ""){
     fwrite($fh, "3\n");
     fwrite($fh, $n3."\n");
   }
-  if($name4 != ""){
+  if($n4 != ""){
     fwrite($fh, "4\n");
     fwrite($fh, $n4."\n");
   }
-  if($name5 != ""){
+  if($n5 != ""){
     fwrite($fh, "5\n");
     fwrite($fh, $n5."\n");
   }
-  if($name6 != ""){
+  if($n6 != ""){
     fwrite($fh, "6\n");
     fwrite($fh, $n6."\n");
   }
-  if($name7 != ""){
+  if($n7 != ""){
     fwrite($fh, "7\n");
     fwrite($fh, $n7."\n");
   }
-  if($name8 != ""){
+  if($n8 != ""){
     fwrite($fh, "8\n");
     fwrite($fh, $n8."\n");
   }
-  if($name9 != ""){
+  if($n9 != ""){
     fwrite($fh, "9\n");
     fwrite($fh, $n9."\n");
   }

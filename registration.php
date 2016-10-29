@@ -48,7 +48,7 @@
   echo $n9;
   $fh = fopen("signup.txt", "a");
   if($n1 != ""){
-    fwrite($fh, 1."\n");
+    fwrite($fh, "a\n");
     //fwrite($fh, $n1."\n");
   }
   /*if($name2 != ""){

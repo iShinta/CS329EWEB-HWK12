@@ -77,3 +77,4 @@
   fclose($fh);
 ?>
 <h1>Thank you for registering</h1>
+<a href="index.php">Back to the Registration Form</a>

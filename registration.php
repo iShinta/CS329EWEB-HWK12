@@ -1,7 +1,11 @@
 <?php
   if(isset($_POST["name1"])){
     $n1 = $_POST["name1"];
-    echo $n1;
+    if($n1 != ""){
+      echo "YEP";
+    }else{
+      echo "Nope";
+    }
   }
   //$name2 = $_POST["name2"];
   //$name3 = $_POST["name3"];

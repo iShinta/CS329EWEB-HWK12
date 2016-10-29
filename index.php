@@ -36,13 +36,13 @@
         }
         $listSignUp[$lineNb] = $line;
         //echo $line;
-        echo $listSignUp[$lineNb];
+        //echo $listSignUp[$lineNb];
       }
       fclose($fh);
 
-      foreach ($listSignUp as $key => $value) {
+      /*foreach ($listSignUp as $key => $value) {
         echo "a: ".$key." - ".$value."<br/>";
-      }
+      }*/
 
       function getName($i){
         global $listSignUp;

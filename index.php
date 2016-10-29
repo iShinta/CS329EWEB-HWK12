@@ -21,12 +21,15 @@
         9 => ""
       );
 
+      $temp = "";
+
       //Read the file and put the results in the array
       $fh = fopen("signup.txt", "r");
       while(!feof($fh)){
         //Read line
         $lineNb = fgets($fh);
-        echo $lineNb;
+        //echo $lineNb;
+        $temp = $lineNb;
 
         //Read Name
         $line = fgets($fh);
@@ -39,7 +42,7 @@
       }
       fclose($fh);
 
-      echo "Plop".array_keys($listSignUp);
+      echo "Plop ".array_keys($listSignUp);
 
 
       function getName($i){

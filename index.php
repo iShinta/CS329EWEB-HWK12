@@ -43,6 +43,7 @@
       fclose($fh);
 
       echo "Plop ".array_keys($listSignUp);
+      echo $temp;
 
 
       function getName($i){

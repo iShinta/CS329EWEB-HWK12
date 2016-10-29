@@ -13,8 +13,9 @@
   $name8 = $_POST["name8"];
   $name9 = $_POST["name9"];*/
 
+  echo $n1;
   $fh = fopen("signup.txt", "a");
-  if($n1 != ""){
+  /*if($n1 != ""){
     fwrite($fh, 1."\n");
     fwrite($fh, $name1."\n");
   }

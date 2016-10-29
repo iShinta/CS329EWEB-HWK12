@@ -1,21 +1,53 @@
 <?php
   $n1 = "";
+  $n2 = "";
+  $n3 = "";
+  $n4 = "";
+  $n5 = "";
+  $n6 = "";
+  $n7 = "";
+  $n8 = "";
+  $n9 = "";
 
   if(isset($_POST["name1"])){
     $n1 = $_POST["name1"];
   }
-  //$name2 = $_POST["name2"];
-  //$name3 = $_POST["name3"];
-  /*$name4 = $_POST["name4"];
-  $name5 = $_POST["name5"];
-  $name6 = $_POST["name6"];
-  $name7 = $_POST["name7"];
-  $name8 = $_POST["name8"];
-  $name9 = $_POST["name9"];*/
+  if(isset($_POST["name2"])){
+    $n1 = $_POST["name2"];
+  }
+  if(isset($_POST["name3"])){
+    $n1 = $_POST["name3"];
+  }
+  if(isset($_POST["name4"])){
+    $n1 = $_POST["name4"];
+  }
+  if(isset($_POST["name5"])){
+    $n1 = $_POST["name5"];
+  }
+  if(isset($_POST["name6"])){
+    $n1 = $_POST["name6"];
+  }
+  if(isset($_POST["name7"])){
+    $n1 = $_POST["name7"];
+  }
+  if(isset($_POST["name8"])){
+    $n1 = $_POST["name8"];
+  }
+  if(isset($_POST["name9"])){
+    $n1 = $_POST["name9"];
+  }
 
   echo $n1;
+  echo $n2;
+  echo $n3;
+  echo $n4;
+  echo $n5;
+  echo $n6;
+  echo $n7;
+  echo $n8;
+  echo $n9;
   $fh = fopen("signup.txt", "a");
-  /*if($n1 != ""){
+  if($n1 != ""){
     fwrite($fh, 1."\n");
     fwrite($fh, $name1."\n");
   }

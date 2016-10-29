@@ -25,13 +25,13 @@
       $fh = fopen("signup.txt", "r");
       while(!feof($fh)){
         //Read line
-        $lineNb = fgets($fh);
+        $lineNb = (int)(fgets($fh));
         //echo $lineNb;
         $temp = $lineNb;
 
         //Read Name
         $line = fgets($fh);
-        if($lineNb != ""){
+        if($lineNb != 0){
           $listSignUp[$lineNb] = $line;
         }
         $listSignUp[$lineNb] = $line;

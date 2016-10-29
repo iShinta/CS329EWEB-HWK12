@@ -35,7 +35,7 @@
       }
       fclose($fh);
 
-      echo "Plop".array_keys($listSignUp);
+      echo "Plop".count($listSignUp);
 
 
       function getName($i){

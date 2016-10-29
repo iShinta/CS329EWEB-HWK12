@@ -10,18 +10,16 @@
   <body>
     <?php
       $listSignUp = array(
-        1 => "",
-        2 => "",
-        3 => "",
-        4 => "",
-        5 => "",
-        6 => "",
-        7 => "",
-        8 => "",
+        1 => "a",
+        2 => "b",
+        3 => "c",
+        4 => "d",
+        5 => "e",
+        6 => "f",
+        7 => "g",
+        8 => "h",
         9 => ""
       );
-
-      $temp = "";
 
       //Read the file and put the results in the array
       $fh = fopen("signup.txt", "r");
@@ -42,9 +40,9 @@
       }
       fclose($fh);
 
-      echo "Plop ".array_keys($listSignUp);
-      echo $temp;
-
+      foreach ($listSignUp as $key => $value) {
+        echo "a: ".$key." - ".$value."<br/>";
+      }
 
       function getName($i){
         global $listSignUp;

@@ -1,7 +1,7 @@
 <?php
   $name1 = $_POST["name1"];
-  $name2 = $_POST["name2"];
-  $name3 = $_POST["name3"];
+  //$name2 = $_POST["name2"];
+  //$name3 = $_POST["name3"];
   $name4 = $_POST["name4"];
   $name5 = $_POST["name5"];
   $name6 = $_POST["name6"];
@@ -18,14 +18,14 @@
     fwrite($fh, 2."\n");
     fwrite($fh, $name2."\n");
   }
-  if($name3 != ""){
+  /*if($name3 != ""){
     fwrite($fh, 3."\n");
     fwrite($fh, $name3."\n");
   }
   if($name4 != ""){
     fwrite($fh, 4."\n");
     fwrite($fh, $name4."\n");
-  }
+  }*/
   if($name5 != ""){
     fwrite($fh, 5."\n");
     fwrite($fh, $name5."\n");

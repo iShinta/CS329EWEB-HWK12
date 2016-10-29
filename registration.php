@@ -13,28 +13,28 @@
     $n1 = $_POST["name1"];
   }
   if(isset($_POST["name2"])){
-    $n1 = $_POST["name2"];
+    $n2 = $_POST["name2"];
   }
   if(isset($_POST["name3"])){
-    $n1 = $_POST["name3"];
+    $n3 = $_POST["name3"];
   }
   if(isset($_POST["name4"])){
-    $n1 = $_POST["name4"];
+    $n4 = $_POST["name4"];
   }
   if(isset($_POST["name5"])){
-    $n1 = $_POST["name5"];
+    $n5 = $_POST["name5"];
   }
   if(isset($_POST["name6"])){
-    $n1 = $_POST["name6"];
+    $n6 = $_POST["name6"];
   }
   if(isset($_POST["name7"])){
-    $n1 = $_POST["name7"];
+    $n7 = $_POST["name7"];
   }
   if(isset($_POST["name8"])){
-    $n1 = $_POST["name8"];
+    $n8 = $_POST["name8"];
   }
   if(isset($_POST["name9"])){
-    $n1 = $_POST["name9"];
+    $n9 = $_POST["name9"];
   }
 
   echo $n1;

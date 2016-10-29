@@ -37,52 +37,43 @@
     $n9 = $_POST["name9"];
   }
 
-  echo $n1;
-  echo $n2;
-  echo $n3;
-  echo $n4;
-  echo $n5;
-  echo $n6;
-  echo $n7;
-  echo $n8;
-  echo $n9;
   $fh = fopen("signup.txt", "a");
   if($n1 != ""){
     fwrite($fh, "1\n");
     fwrite($fh, $n1."\n");
   }
-  /*if($name2 != ""){
-    fwrite($fh, 2."\n");
-    fwrite($fh, $name2."\n");
+  if($name2 != ""){
+    fwrite($fh, "2\n");
+    fwrite($fh, $n2."\n");
   }
   if($name3 != ""){
-    fwrite($fh, 3."\n");
-    fwrite($fh, $name3."\n");
+    fwrite($fh, "3\n");
+    fwrite($fh, $n3."\n");
   }
   if($name4 != ""){
-    fwrite($fh, 4."\n");
-    fwrite($fh, $name4."\n");
+    fwrite($fh, "4\n");
+    fwrite($fh, $n4."\n");
   }
   if($name5 != ""){
-    fwrite($fh, 5."\n");
-    fwrite($fh, $name5."\n");
+    fwrite($fh, "5\n");
+    fwrite($fh, $n5."\n");
   }
   if($name6 != ""){
-    fwrite($fh, 6."\n");
-    fwrite($fh, $name6."\n");
+    fwrite($fh, "6\n");
+    fwrite($fh, $n6."\n");
   }
   if($name7 != ""){
-    fwrite($fh, 7."\n");
-    fwrite($fh, $name7."\n");
+    fwrite($fh, "7\n");
+    fwrite($fh, $n7."\n");
   }
   if($name8 != ""){
-    fwrite($fh, 8."\n");
-    fwrite($fh, $name8."\n");
+    fwrite($fh, "8\n");
+    fwrite($fh, $n8."\n");
   }
   if($name9 != ""){
-    fwrite($fh, 9."\n");
-    fwrite($fh, $name9."\n");
-  }*/
+    fwrite($fh, "9\n");
+    fwrite($fh, $n9."\n");
+  }
   fclose($fh);
 ?>
 <h1>Thank you for registering</h1>

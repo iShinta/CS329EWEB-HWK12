@@ -1,4 +1,6 @@
 <?php
+  var $n1;
+
   if(isset($_POST["name1"])){
     $n1 = $_POST["name1"];
   }

@@ -30,8 +30,12 @@
 
         //Read Name
         $line = fgets($fh);
+        if($lineNb != ""){
+          $listSignUp[$lineNb] = $line;
+        }
         $listSignUp[$lineNb] = $line;
-        echo $line;
+        //echo $line;
+        echo $listSignUp[$lineNb];
       }
       fclose($fh);
 

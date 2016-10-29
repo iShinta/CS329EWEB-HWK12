@@ -1,7 +1,7 @@
 <?php
-  if(isset($_POST['name1'])){
-    $name1 = $_POST["name1"];
-    echo $name1;
+  if(isset($_POST["name1"])){
+    $n1 = $_POST["name1"];
+    echo $n1;
   }
   //$name2 = $_POST["name2"];
   //$name3 = $_POST["name3"];
@@ -13,7 +13,7 @@
   $name9 = $_POST["name9"];*/
 
   $fh = fopen("signup.txt", "a");
-  if($name1 != ""){
+  /*if($n1 != ""){
     fwrite($fh, 1."\n");
     fwrite($fh, $name1."\n");
   }

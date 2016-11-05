@@ -37,8 +37,7 @@
     $n9 = $_POST["name9"];
   }
 
-  $fh = fopen("signup.txt", "a");
-
+  $fh = fopen("signup.txt", "r");
   $slotTaken = Array();
   while(!feof($fh)){
     //Read line
@@ -50,6 +49,9 @@
     $slotTaken = array($lineNb => $line);
   }
   echo $slotTaken;
+  fclose($fh);
+
+  $fh = fopen("signup.txt", "a");
 
   if($n1 != ""){
     fwrite($fh, "1\n");

@@ -46,7 +46,7 @@
     //Read Name
     $line = fgets($fh);
 
-    $slotTaken = array($lineNb => $line);
+    $slotTaken[$lineNb] = $line;
   }
   print_r($slotTaken);
   fclose($fh);

@@ -48,7 +48,7 @@
 
     $slotTaken = array($lineNb => $line);
   }
-  printf($slotTaken);
+  print_r($slotTaken);
   fclose($fh);
 
   $fh = fopen("signup.txt", "a");

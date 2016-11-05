@@ -38,6 +38,19 @@
   }
 
   $fh = fopen("signup.txt", "a");
+
+  $slotTaken = Array();
+  while(!feof($fh)){
+    //Read line
+    $lineNb = (int)(fgets($fh));
+
+    //Read Name
+    $line = fgets($fh);
+
+    $slotTaken = array($lineNb => $line);
+  }
+  echo $slotTaken;
+
   if($n1 != ""){
     fwrite($fh, "1\n");
     fwrite($fh, $n1."\n");

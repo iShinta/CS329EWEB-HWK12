@@ -60,37 +60,53 @@
   }else if($n1 != ""){
     echo("Slot already taken by ".$slotTaken["1"]);
   }
-  if($n2 != ""){
+  if(!array_key_exists ("2" , $slotTaken) && $n2 != ""){
     fwrite($fh, "2\n");
     fwrite($fh, $n2."\n");
+  }else if($n2 != ""){
+    echo("Slot already taken by ".$slotTaken["2"]);
   }
-  if($n3 != ""){
+  if(!array_key_exists ("3" , $slotTaken) && $n3 != ""){
     fwrite($fh, "3\n");
     fwrite($fh, $n3."\n");
+  }else if($n3 != ""){
+    echo("Slot already taken by ".$slotTaken["3"]);
   }
-  if($n4 != ""){
+  if(!array_key_exists ("4" , $slotTaken) && $n4 != ""){
     fwrite($fh, "4\n");
     fwrite($fh, $n4."\n");
+  }else if($n4 != ""){
+    echo("Slot already taken by ".$slotTaken["4"]);
   }
-  if($n5 != ""){
+  if(!array_key_exists ("5" , $slotTaken) && $n5 != ""){
     fwrite($fh, "5\n");
     fwrite($fh, $n5."\n");
+  }else if($n5 != ""){
+    echo("Slot already taken by ".$slotTaken["5"]);
   }
-  if($n6 != ""){
+  if(!array_key_exists ("6" , $slotTaken) && $n6 != ""){
     fwrite($fh, "6\n");
     fwrite($fh, $n6."\n");
+  }else if($n6 != ""){
+    echo("Slot already taken by ".$slotTaken["6"]);
   }
-  if($n7 != ""){
+  if(!array_key_exists ("7" , $slotTaken) && $n7 != ""){
     fwrite($fh, "7\n");
     fwrite($fh, $n7."\n");
+  }else if($n7 != ""){
+    echo("Slot already taken by ".$slotTaken["7"]);
   }
-  if($n8 != ""){
+  if(!array_key_exists ("8" , $slotTaken) && $n8 != ""){
     fwrite($fh, "8\n");
     fwrite($fh, $n8."\n");
+  }else if($n8 != ""){
+    echo("Slot already taken by ".$slotTaken["8"]);
   }
-  if($n9 != ""){
+  if(!array_key_exists ("9" , $slotTaken) && $n9 != ""){
     fwrite($fh, "9\n");
     fwrite($fh, $n9."\n");
+  }else if($n9 != ""){
+    echo("Slot already taken by ".$slotTaken["9"]);
   }
   fclose($fh);
 ?>

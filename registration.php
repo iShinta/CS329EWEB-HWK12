@@ -53,7 +53,7 @@
 
   $fh = fopen("signup.txt", "a");
 
-  if(array_key_exists ($n1 , $slotTaken) && $n1 != ""){
+  if(!array_key_exists ("1" , $slotTaken) && $n1 != ""){
     fwrite($fh, "1\n");
     fwrite($fh, $n1."\n");
   }

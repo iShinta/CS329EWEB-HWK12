@@ -56,6 +56,8 @@
   if(!array_key_exists ("1" , $slotTaken) && $n1 != ""){
     fwrite($fh, "1\n");
     fwrite($fh, $n1."\n");
+  }else{
+    alert("Slot already taken by ".$slotTaken["1"]);
   }
   if($n2 != ""){
     fwrite($fh, "2\n");

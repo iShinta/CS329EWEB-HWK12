@@ -57,7 +57,7 @@
     fwrite($fh, "1\n");
     fwrite($fh, $n1."\n");
   }else{
-    alert("Slot already taken by ".$slotTaken["1"]);
+    alert("Slot already taken");
   }
   if($n2 != ""){
     fwrite($fh, "2\n");

@@ -1,3 +1,4 @@
+<h1>Thank you for registering</h1>
 <?php
   $n1 = "";
   $n2 = "";
@@ -48,7 +49,7 @@
 
     $slotTaken[$lineNb] = $line;
   }
-  print_r($slotTaken);
+  //print_r($slotTaken);
   fclose($fh);
 
   $fh = fopen("signup.txt", "a");
@@ -93,5 +94,4 @@
   }
   fclose($fh);
 ?>
-<h1>Thank you for registering</h1>
 <a href="index.php">Back to the Registration Form</a>
